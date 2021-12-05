@@ -1,1 +1,1 @@
-kkk.txt
+new_component.java

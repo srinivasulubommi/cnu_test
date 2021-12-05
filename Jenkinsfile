@@ -2,16 +2,16 @@ pipeline {
     agent any
     environment {
       WORKSPACE = pwd()
-      GIT_USER_NAME = "Bharath Pantala"
-      GIT_USER_MAIL = "bpantala@gmail.com"
+      GIT_USER_NAME = "Cnu Bommi"
+      GIT_USER_MAIL = "cnu.bommi@gmail.com"
       PATCH_NUMBER = "v2021.12"
     }
     stages {
         stage('Patch') {
             steps{
-                git branch: 'feature',
+                git branch: 'develop',
                 credentialsId: 'github-key',
-                url: 'git@github.com:cloudrural/cnu_test.git'
+                url: 'git@github.com:srinivasulubommi/cnu_test.git'
                 sh'''
 #!/bin/bash
 _main_func_ () {

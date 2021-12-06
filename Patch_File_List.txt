@@ -1,1 +1,2 @@
-merge.txt
+ptr1.txt
+ptr2.txt

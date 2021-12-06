@@ -1,2 +1,1 @@
-ptr1.txt
-ptr2.txt
+it24.txt
